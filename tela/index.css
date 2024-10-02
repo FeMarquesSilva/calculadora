@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+}
+.boxCalc {
+    border: 2px solid black; /* Borda preta */
+    padding: 40px; /*Tamanho da caixa*/
+    width: 30%;
+    margin: auto;
+}
+
+p {
+    padding: 20px;
+    width: 90%;
+    border: 2px solid rgb(73, 73, 73); /* Borda preta */
+}
+
+.containerp{
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+}
+
+.containerButtons{
+    display: grid; /* Define o contêiner como um grid */
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de largura igual */
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 10px; /* Espaçamento acima do contêiner */
+}
+
+.containerSinais{
+    display: grid; /* Define o contêiner como um grid */
+    grid-template-columns: repeat(2, 1fr); /* Cria 3 colunas de largura igual */
+    gap: 10px; /* Espaçamento entre os botões */
+    margin-top: 25px; /* Espaçamento acima do contêiner */
+}
+
+.result{
+    margin-top: 25px;
+    width: 100%;
+}
